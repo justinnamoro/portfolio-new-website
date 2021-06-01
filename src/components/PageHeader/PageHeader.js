@@ -16,9 +16,28 @@
 
 */
 import React from "react";
+import styled from 'styled-components';
 
 // reactstrap components
 import { Container, Button } from "reactstrap";
+
+const HiThere = styled.h1`
+  font-weight: 600;
+  font-size:50px;
+@media (max-width:760px){
+    font-size: 30px;
+    font-weight: 600;
+
+}
+@media (max-width:320px){
+    font-size: 25px;
+    font-weight: 600;
+}
+`;
+
+const Desc = styled.h4`
+font-size: 16px;
+`;
 
 export default function PageHeader() {
   return (
@@ -31,7 +50,7 @@ export default function PageHeader() {
       <div className="squares square6" />
       <div className="squares square7" />
       <Container>
-        <div className="content-center brand" style={{zIndex:100}}>
+        <div className="content-center brand">
         <img src='/me.jpeg' 
           style=
           {{width:'150px', 
@@ -42,12 +61,12 @@ export default function PageHeader() {
         }}
           />
 
-          <h1 className="h1-seo">Hi there 👋</h1>
-          <h4>
+          <HiThere>Hi there 👋</HiThere>
+          <Desc>
             My name is Justin Namoro. I'm a Web Developer and UI/UX Designer based in Vancouver, BC!
-          </h4>
+          </Desc>
 
-          <Button color='primary' href='/#basic-elements'>View Projects</Button>
+          <Button color='primary' href='/#basic-elements' style={{minWidth:180}}>View Projects</Button>
 
 
         </div>

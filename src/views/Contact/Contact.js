@@ -3,6 +3,7 @@ import classnames from "classnames";
 import { Link } from "react-router-dom";
 import IndexNavbar from "components/Navbars/IndexNavbar";
 import {motion} from 'framer-motion';
+import {useForm} from '@formspree/react';
 // reactstrap components
 import {
   Button,
@@ -37,6 +38,11 @@ const pageTransition = {
 
 export default function Contact() {
 
+    // const [state, handleSubmit] = useForm('https://formspree.io/f/mrgrqlrl');
+    // if (state.succeeded) {
+    //   return <div>Thank you! We will get back to you shortly!</div>;
+    // }
+
   return (
     <div className="section section-signup">
       <IndexNavbar/>
@@ -44,29 +50,23 @@ export default function Contact() {
       <Container>
 
         <motion.div className='contact-page' initial='out' animate='in' exit='out' variants={pageTransition}>
-            <Form>
+            <form action='https://formspree.io/f/mrgrqlrl' method='POST'>
+
+
                 <FormGroup>
-                    <Input placeholder='Name'/>
+                    <Input placeholder='Email' type='email' name="_replyto"/>
                 </FormGroup>
 
                 <FormGroup>
-                    <Input placeholder='Email' />
-                </FormGroup>
-
-                <FormGroup>
-                    <Input placeholder='Subject' />
-                </FormGroup>
-
-                <FormGroup>
-                    <Input type='textarea' placeholder='Message'/>
+                    <Input type='textarea' placeholder='Message' name="message"/>
                 </FormGroup>
 
                 <Input type='submit'/>
 
-            </Form>
+            </form>
         </motion.div>
 
-            <h1 style={{ marginTop:50, fontWeight:700}}>Questions or inquiries? Send them right here 🤗</h1>
+            <h1 style={{ marginTop:50, fontWeight:600}}>Questions or inquiries? Send them right here 🤗</h1>
 
 
         {/* <Row className="row-grid justify-content-between align-items-center">

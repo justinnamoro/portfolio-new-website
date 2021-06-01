@@ -156,7 +156,7 @@ export default function IndexNavbar() {
               <NavLink href='/justinnamoro_resume.pdf'>Resume</NavLink>
             </NavItem>
             <NavItem>
-                <NavLink href='/Contact'>Contact</NavLink>
+                <NavLink tag={Link} to='/Contact'>Contact</NavLink>
             </NavItem>
             <UncontrolledDropdown nav>
               <DropdownToggle

@@ -114,7 +114,7 @@ export default function Basics() {
           <Col md='5' style={{display:'flex', flexDirection: 'column', justifyContent: 'center', alignItems:'center'}}>
             <h2>BeatShare</h2>
             <p style={{marginBottom:'20px'}}>A social media app for sharing music taste.</p>
-            <Button tag={Link} to='/BeatShare' style={{marginBottom:'50px'}} >Learn More</Button>
+            <Button tag={Link} to='/BeatShare' style={{marginBottom:'50px', minWidth:180}} >Learn More</Button>
           </Col>
           <Col md='5'>
             <img src='beatshare.png'/>
@@ -139,7 +139,7 @@ export default function Basics() {
           <Col md='5' style={{display:'flex', flexDirection: 'column', justifyContent: 'center', alignItems:'center'}}>
             <h2>LeagueWorks</h2>
             <p style={{marginBottom:'20px'}}>An all-in-one sports league management app.</p>
-            <Button tag={Link} to='/LeagueWorks' style={{marginBottom:'20px'}} >Learn More</Button>
+            <Button tag={Link} to='/LeagueWorks' style={{marginBottom:'20px', minWidth:180}} >Learn More</Button>
           </Col>
 
         </Row>
