@@ -100,26 +100,28 @@ export default function Basics() {
   },[inView])
 
   return (
-    <div className="section section-basic" id="basic-elements">
+    <div className="section section-basic" id="basic-elements" style={{paddingTop:'15px'}}>
       <img
         alt="..."
         className="path"
         src={require("assets/img/path1.png").default}
       />
-      <Container >
+      <Container style={{textAlign:'center'}}>
+      <h1 style={{fontWeight:600}}>My Projects</h1>
       <div className='parent-animate' ref={ref}>
 
       <motion.div className='beatshare-animate' animate={animation1}>
-        <Row style={{display:'flex', justifyContent: 'center', alignItems:'center', margin:'50px'}}>
+      <Row style={{display:'flex', justifyContent: 'center', alignItems:'center', margin:'50px'}}>
           <Col md='5' style={{display:'flex', flexDirection: 'column', justifyContent: 'center', alignItems:'center'}}>
-            <h2>BeatShare</h2>
-            <p style={{marginBottom:'20px'}}>A social media app for sharing music taste.</p>
-            <Button tag={Link} to='/BeatShare' style={{marginBottom:'50px', minWidth:180}} >Learn More</Button>
+            <h2>Visie</h2>
+            <p style={{marginBottom:'20px', textAlign:"center"}}>Web app developed for the fashion/photography industry.</p>
+            <Button tag={Link} to='/Visie' style={{marginBottom:'50px', minWidth:180}} >Learn More</Button>
           </Col>
           <Col md='5'>
-            <img src='beatshare.png'/>
+            <img src='visie.png'/>
           </Col>
         </Row>
+
       </motion.div>
 
 
@@ -150,6 +152,19 @@ export default function Basics() {
         </motion.div>
         </div>
 
+        <Row style={{display:'flex', justifyContent: 'center', alignItems:'center', margin:'50px'}}>
+          <Col md='5' style={{display:'flex', flexDirection: 'column', justifyContent: 'center', alignItems:'center'}}>
+            <h2>BeatShare</h2>
+            <p style={{marginBottom:'20px'}}>A social media app for sharing music taste.</p>
+            <Button tag={Link} to='/BeatShare' style={{marginBottom:'50px', minWidth:180}} >Learn More</Button>
+          </Col>
+          <Col md='5'>
+            <img src='beatshare.png'/>
+          </Col>
+        </Row>
+
+
+ 
 
 
         
