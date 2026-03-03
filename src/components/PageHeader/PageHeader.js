@@ -46,7 +46,7 @@ export default function PageHeader() {
 
           <HiThere>Hi there 👋</HiThere>
           <Desc>
-            My name is Justin Namoro. I'm an upcoming Full Stack Developer and UI/UX Designer based in Vancouver, BC!
+            My name is Justin Namoro. I'm a Web Developer and UI/UX Designer based in Vancouver, BC!
           </Desc>
 
           <Button color='primary' href='/#basic-elements' style={{minWidth:180}}>View Projects</Button>
