@@ -109,6 +109,30 @@ export default function Basics() {
       <Container style={{textAlign:'center'}}>
       <h1 style={{fontWeight:600}}>My Projects</h1>
       <div className='parent-animate' ref={ref}>
+      
+
+
+          <Row style={{display:'flex', justifyContent: 'center', alignItems:'center', margin:'50px'}}>
+          <Col md='5' style={{display:'flex', flexDirection: 'column', justifyContent: 'center', alignItems:'center'}}>
+            <h2>TWU Mars' Hill</h2>
+            <p style={{marginBottom:'20px'}}>A UI/UX refresh of TWU’s student magazine website. I improved the content hierarchy, rebuilt the homepage layout, and updated the navigation to prioritize the latest issue releases for faster, more intuitive access.</p>
+            <Button tag={Link} to='/MarsHill'  onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} style={{marginBottom:'50px', minWidth:180}} >Learn More</Button>
+          </Col><Col md='5'>
+            <img src='mars_hill_logo.png'/>
+          </Col>
+        </Row>
+
+        <Row style={{display:'flex', justifyContent: 'center', alignItems:'center', margin:'50px'}}>
+          <Col md='5'>
+            <img src='beatshare.png'/>
+          </Col>
+          <Col md='5' style={{display:'flex', flexDirection: 'column', justifyContent: 'center', alignItems:'center'}}>
+            <h2>BeatShare</h2>
+            <p style={{marginBottom:'20px'}}>A social media app for sharing music taste.</p>
+            <Button tag={Link} to='/BeatShare'  onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} style={{marginBottom:'50px', minWidth:180}} >Learn More</Button>
+          </Col>
+
+        </Row>
 
       <motion.div className='beatshare-animate' animate={animation1}>
       <Row style={{display:'flex', justifyContent: 'center', alignItems:'center', margin:'50px'}}>
@@ -152,16 +176,7 @@ export default function Basics() {
         </motion.div>
         </div>
 
-        <Row style={{display:'flex', justifyContent: 'center', alignItems:'center', margin:'50px'}}>
-          <Col md='5' style={{display:'flex', flexDirection: 'column', justifyContent: 'center', alignItems:'center'}}>
-            <h2>BeatShare</h2>
-            <p style={{marginBottom:'20px'}}>A music‑sharing platform centered on discovery and interaction. Built with attention to hierarchy, smooth interaction patterns, and clean, functional UI design.</p>
-            <Button tag={Link} to='/BeatShare'  onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} style={{marginBottom:'50px', minWidth:180}} >Learn More</Button>
-          </Col>
-          <Col md='5'>
-            <img src='beatshare.png'/>
-          </Col>
-        </Row>
+
 
 
  

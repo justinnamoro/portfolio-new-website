@@ -76,20 +76,20 @@ This was my first project with StayShure, and it introduced me to building struc
                     <br></br>Link to website: <a href='https://visie.io/'>Visie</a>
                     </p>
                     <h2 style={{marginTop:'25px'}}>My Role</h2>
-                    <p style={{maxWidth:'800px', marginBottom:50}}>I contributed to both the design refinement and front‑end implementation of the platform. My work focused on: improving layout clarity and simplifying user flows building responsive components within Bubble.io ensuring consistency across screens and interactions supporting the team with UI adjustments and usability improvements debugging layout issues and refining interaction behavior This project strengthened my ability to work within an existing product structure while applying UX thinking to improve clarity and usability.</p>
+                    <p style={{maxWidth:'800px', marginBottom:50}}>I contributed to both the design refinement and front‑end implementation of the platform. My work focused on: <br></br>- improving layout clarity and simplifying user flows building responsive components within Bubble.io <br></br> - ensuring consistency across screens and interactions <br></br> - supporting the team with UI adjustments and usability improvements <br></br> - debugging layout issues and refining interaction behavior <br></br> This project strengthened my ability to work within an existing product structure while applying UX thinking to improve clarity and usability.</p>
 
                     <h2 style={{marginTop:'25px'}}>What I Worked On</h2>
-                    <p style={{maxWidth:'800px', marginBottom:50}}>Collaborated with the designer to translate wireframes into functional UI components
+                    <p style={{maxWidth:'800px', marginBottom:50}}> - Collaborated with the designer to translate wireframes into functional UI components <br></br>
 
-Refined the onboarding and project‑creation flows for better clarity
+- Refined the onboarding and project‑creation flows for better clarity <br></br>
 
-Improved spacing, hierarchy, and visual consistency across key screens
+- Improved spacing, hierarchy, and visual consistency across key screens <br></br>
 
-Conducted informal UX reviews to identify friction points
+- Conducted informal UX reviews to identify friction points <br></br>
 
-Implemented responsive layouts and interaction logic in Bubble.io
+- Implemented responsive layouts and interaction logic in Bubble.io <br></br>
 
-Worked closely with the lead developer to ensure smooth handoff and implementation</p>
+- Worked closely with the lead developer to ensure smooth handoff and implementation</p>
 
 <h2 style={{marginTop:'25px'}}>Outcome</h2>
                     <p style={{maxWidth:'800px', marginBottom:50}}>By the end of the project, the team delivered a functional MVP with clearer flows, more consistent UI patterns, and a more intuitive experience for photographers and models. My contributions helped strengthen the usability of the platform and ensured the interface behaved predictably across devices.</p>

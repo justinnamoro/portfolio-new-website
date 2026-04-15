@@ -74,33 +74,33 @@ Our team designed and developed the app from the ground up, focusing on clean UI
                     </p>
                     <h2 style={{maxWidth:'800px', marginBottom:50}}>My Role</h2>
 <p style={{maxWidth:'800px', marginBottom:50}}> 
-                  As the Front‑end Developer, Designer, and Project Manager, I contributed to both the technical implementation and the overall direction of the project. My responsibilities included:
+                  As the Front‑end Developer, Designer, and Project Manager, I contributed to both the technical implementation and the overall direction of the project. My responsibilities included: <br></br>
 
-connecting the front‑end to the back‑end server
+- connecting the front‑end to the back‑end server <br></br>
 
-building and styling reusable UI components
+- building and styling reusable UI components <br></br>
 
-adding interactivity and handling user actions
+- adding interactivity and handling user actions <br></br>
 
-refining layout clarity and improving user flows
+- refining layout clarity and improving user flows <br></br>
 
-managing weekly team meetings and coordinating tasks
+- managing weekly team meetings and coordinating tasks <br></br>
 
 This role allowed me to combine UX thinking with hands‑on development while guiding the team through a fast, collaborative build.
                     </p>
                     <h2 style={{maxWidth:'800px', marginBottom:50}}>What I Worked On</h2>
 <p style={{maxWidth:'800px', marginBottom:50}}> 
-                  Implemented front‑end features in React JS, including dynamic components and interactive UI behavior
+                  - Implemented front‑end features in React JS, including dynamic components and interactive UI behavior <br></br>
 
-Connected the app to the back‑end API, handling data flow and state management
+- Connected the app to the back‑end API, handling data flow and state management <br></br>
 
-Designed and refined key screens with a focus on hierarchy, readability, and smooth interactions
+- Designed and refined key screens with a focus on hierarchy, readability, and smooth interactions <br></br>
 
-Improved usability across core flows such as posting, browsing, and profile interactions
+- Improved usability across core flows such as posting, browsing, and profile interactions <br></br>
 
-Led weekly team meetings, organized tasks, and ensured consistent progress
+- Led weekly team meetings, organized tasks, and ensured consistent progress <br></br>
 
-Collaborated with designers to translate wireframes into functional, responsive UI
+- Collaborated with designers to translate wireframes into functional, responsive UI
                     </p>
                     <h2 style={{maxWidth:'800px', marginBottom:50}}>Outcome</h2>
 <p style={{maxWidth:'800px', marginBottom:50}}> 
@@ -108,9 +108,8 @@ Collaborated with designers to translate wireframes into functional, responsive 
                     </p>
 
 
-                    <h2>App Demo</h2>
-                    <iframe style={{borderRadius:15}} width="100%" height="700" src="https://www.youtube.com/embed/T8fmZkj9FK8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+        
+            
 
                 </ProjectDesc>
 

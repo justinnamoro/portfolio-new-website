@@ -192,6 +192,9 @@ export default function IndexNavbar() {
                 <DropdownItem tag={Link} to="/Visie">
                   Visie
                 </DropdownItem>
+                                <DropdownItem tag={Link} to="/MarsHill">
+                  TWU Mars' Hill
+                </DropdownItem>
 
 
                

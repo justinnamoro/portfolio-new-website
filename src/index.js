@@ -11,7 +11,8 @@ import BeatShare from "views/BeatShare/BeatShare";
 import LeagueWorks from "views/LeagueWorks/LeagueWorks";
 import Contact from "views/Contact/Contact";
 import About from "views/About/About";
-import Visie from "views/Visie/Visie"
+import Visie from "views/Visie/Visie";
+import MarsHill from "views/Mars' Hill/MarsHill";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -22,6 +23,7 @@ ReactDOM.render(
       <Route path="/Contact" exact component={Contact}/>
       <Route path="/About" exact component={About}/>
       <Route path="/Visie" exact component={Visie}/>
+      <Route path="/MarsHill" exact component={MarsHill}/>
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")

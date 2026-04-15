@@ -76,33 +76,33 @@ This project required extensive research, planning, and collaboration across des
                     </p>
                     <h2 style={{maxWidth:'800px', marginBottom:50}}>My Role</h2>
 <p style={{maxWidth:'800px', marginBottom:50}}> 
-                  As a Front‑end Developer and Designer, I contributed to both the UI design and React Native implementation of the app. My work centered on:
+                  As a Front‑end Developer and Designer, I contributed to both the UI design and React Native implementation of the app. My work centered on: <br></br>
 
-refining user flows and improving layout clarity
+- refining user flows and improving layout clarity <br></br>
 
-designing and building responsive, mobile‑friendly components
+- designing and building responsive, mobile‑friendly components <br></br>
 
-ensuring visual consistency across screens and interactions
+- ensuring visual consistency across screens and interactions <br></br>
 
-collaborating with designers to translate wireframes into functional UI
+- collaborating with designers to translate wireframes into functional UI <br></br>
 
-debugging layout issues and optimizing interaction behavior
+- debugging layout issues and optimizing interaction behavior <br></br>
 
-This project strengthened my ability to work across UX, UI, and development, especially within a mobile environment.
+This project strengthened my ability to work across UX, UI, and development, especially within a mobile environment. 
                     </p>
                                         <h2 style={{maxWidth:'800px', marginBottom:50}}>What I Worked On</h2>
 <p style={{maxWidth:'800px', marginBottom:50}}> 
-                  Designed key screens in Figma with a focus on hierarchy, readability, and intuitive navigation
+                  - Designed key screens in Figma with a focus on hierarchy, readability, and intuitive navigation <br></br>
 
-Implemented front‑end components in React Native, ensuring smooth interactions and responsive layouts
+- Implemented front‑end components in React Native, ensuring smooth interactions and responsive layouts <br></br>
 
-Helped refine the onboarding and scheduling flows for better clarity and ease of use
+- Helped refine the onboarding and scheduling flows for better clarity and ease of use <br></br>
 
-Conducted informal UX reviews to identify friction points and improve usability
+- Conducted informal UX reviews to identify friction points and improve usability <br></br>
 
-Collaborated closely with the design team to maintain consistency across the app
+- Collaborated closely with the design team to maintain consistency across the app <br></br>
 
-Tested the app across iOS and Android simulators to ensure reliable performance
+- Tested the app across iOS and Android simulators to ensure reliable performance
                     </p>
                     <h2 style={{maxWidth:'800px', marginBottom:50}}>Outcome</h2>
 <p style={{maxWidth:'800px', marginBottom:50}}> 
