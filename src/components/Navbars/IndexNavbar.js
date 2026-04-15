@@ -182,19 +182,20 @@ export default function IndexNavbar() {
               </DropdownToggle>
               <DropdownMenu className="dropdown-with-icons">
 
-                
-                <DropdownItem tag={Link} to="/BeatShare">
-                  BeatShare
-                </DropdownItem>
-                <DropdownItem tag={Link} to="/LeagueWorks">
-                  LeagueWorks
-                </DropdownItem>
-                <DropdownItem tag={Link} to="/Visie">
-                  Visie
-                </DropdownItem>
-                                <DropdownItem tag={Link} to="/MarsHill">
+                <DropdownItem tag={Link} to="/MarsHill" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
                   TWU Mars' Hill
                 </DropdownItem>
+                <DropdownItem tag={Link} to="/BeatShare" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+                  BeatShare
+                </DropdownItem>
+                <DropdownItem tag={Link} to="/Visie" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+                  Visie
+                </DropdownItem>
+                <DropdownItem tag={Link} to="/LeagueWorks" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+                  LeagueWorks
+                </DropdownItem>
+
+
 
 
                

@@ -51,6 +51,18 @@ const LeagueWorksMobileHide = styled.img`
 }
 `
 
+const BeatShareMobileShow = styled.img`
+@media (min-width:768px){
+  display:none;
+}
+`;
+
+const BeatShareMobileHide = styled.img`
+@media (max-width:767px){
+  display:none;
+}
+`
+
 export default function Basics() {
   // const [inputFocus, setInputFocus] = React.useState(false);
   // const slider1 = React.useRef(null);
@@ -121,17 +133,21 @@ export default function Basics() {
             <img src='mars_hill_logo.png'/>
           </Col>
         </Row>
-
         <Row style={{display:'flex', justifyContent: 'center', alignItems:'center', margin:'50px'}}>
-          <Col md='5'>
-            <img src='beatshare.png'/>
+
+          <Col md='5' id='leagueworks-mobile-hide'>
+            <BeatShareMobileHide src='beatshare.png'/>
           </Col>
           <Col md='5' style={{display:'flex', flexDirection: 'column', justifyContent: 'center', alignItems:'center'}}>
             <h2>BeatShare</h2>
-            <p style={{marginBottom:'20px'}}>A social media app for sharing music taste.</p>
-            <Button tag={Link} to='/BeatShare'  onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} style={{marginBottom:'50px', minWidth:180}} >Learn More</Button>
+            <p style={{marginBottom:'20px'}}>A music‑sharing platform centered on discovery and interaction. Built with attention to hierarchy, smooth interaction patterns, and clean, functional UI design.</p>
+            <Button tag={Link} to='/BeatShare'  onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} style={{marginBottom:'20px', minWidth:180}} >Learn More</Button>
           </Col>
 
+        </Row>
+
+        <Row style={{display:'flex', justifyContent: 'center', alignItems:'center', margin:'50px'}}>
+          <LeagueWorksMobileShow src='beatshare.png'/>
         </Row>
 
       <motion.div className='beatshare-animate' animate={animation1}>
